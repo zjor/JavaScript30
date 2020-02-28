@@ -38,6 +38,8 @@ function paintToCanvas() {
 // - edge detection colored
 // - feature detection
 // - randomly connect features with lines
+// - green screen and merge with background image
+
 function mirrorFrame(pixels, width, height) {
   for (let y = 0; y < height; y++) {
     for (let x = 0; x < width / 2; x++) {
